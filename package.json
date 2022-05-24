@@ -1,0 +1,29 @@
+{
+  "name": "canvas-pages-css-inliner",
+  "version": "1.0.0",
+  "description": "Canvas Pages CSS inliner with Juice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGGuizar/canvas-pages-css-inliner.git"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "nodejs",
+    "juice"
+  ],
+  "author": "Pablo G. Guízar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGGuizar/canvas-pages-css-inliner/issues"
+  },
+  "homepage": "https://github.com/PabloGGuizar/canvas-pages-css-inliner#readme",
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "juice": "^8.0.0"
+  }
+}
