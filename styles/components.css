@@ -1,0 +1,147 @@
+/** Contentainer **/
+.container {
+    margin: auto;
+    max-width: 1400px;
+}
+
+/** Alert Cards **/
+.alert {
+    border: solid 2px gray;
+    border-radius: 0.4rem;
+    display: flex;
+    margin: auto;
+    max-width: 36rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+.alert-body {
+    flex: 97%;
+    padding: 1rem;
+}
+
+.alert-icon {
+    background-color: lightgray;
+    border-right: solid 2px gray;
+    flex: 3%;
+    padding: 1rem;
+}
+
+/** Cards **/
+.card {
+    border: solid 1px #c7cdd1;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 38rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #f5f5f5;
+    border-bottom: solid 1px #c7cdd1;
+    color: #000000;
+    flex: 100%;
+    padding: 1rem; 
+}
+
+.card-body {
+    flex: 50%;
+    min-width: 18rem;
+}
+
+.card-img {
+    flex: 50%;
+    min-width: 18rem;
+}
+
+.card-footer {
+    background-color: #f5f5f5;
+    border-top: solid 1px #c7cdd1;
+    flex: 100%;
+    padding: 1rem; 
+}
+
+/** Buttons Styles **/
+
+.btn,.Button,.ui-button {
+    background: #f5f5f5;
+    color: #000000;
+    border: 1px solid;
+    border-color: #c7cdd1;
+    border-radius: 3px;
+    transition: background-color .2s ease-in-out;
+    display: inline-block;
+    position: relative;
+    padding: 8px 14px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    text-shadow: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.btn-large,.Button--large {
+    padding: 11px 19px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    border-radius: 6px
+}
+
+.btn-small,.Button--small {
+    padding: 2px 8px;
+    font-size: 14px;
+    font-size: 0.875rem
+}
+
+.btn-mini,.Button--mini {
+    padding: 1px 6px;
+    font-size: 10px;
+    font-size: 0.625rem;
+    border-radius: 1px
+}
+
+.btn-block,.Button--block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box
+}
+
+.btn-primary {
+    background-color: #0f3f70;
+    border-color:#0b2f54;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #4e7390;
+    border-color: #3b566c;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #00b1a1;
+    border-color: #008579;
+}
+
+.btn-danger {
+    background-color: #d1481e;
+    border-color: #9d3616;
+    color: #ffffff;
+}
+
+.btn-warning {
+    background-color: #ff9528;
+    border-color: #bf701e;
+}

@@ -1,5 +1,231 @@
-/** Write your styles on this sheet. **/
+/** Background Colors **/
+.bg {
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+.bg-primary {
+    background-color: #0F3F70;
+    color: #ffffff;
+}
+
+.bg-secondary {
+    background-color: #4E7390;
+    color: #ffffff;
+}
+
+.bg-success {
+    background-color: #00B1A1;
+    color: #000000;
+}
+
+.bg-danger {
+    background-color: #D1481E;
+    color: #ffffff;
+}
+
+.bg-warning {
+    background-color: #FF9528;
+    color: #000000;
+}
+
+.bg-l {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.bg-primary-l {
+    background-color: #6987a6;
+    color: #000000;
+}
+
+.bg-secondary-l {
+    background-color: #90a8ba;
+    color: #000000;
+}
+
+.bg-success-l {
+    background-color: #60cec4;
+    color: #000000;
+}
+
+.bg-danger-l {
+    background-color: #e28d72;
+    color: #000000;
+}
+
+.bg-warning-l {
+    background-color: #ffbd79;
+    color: #000000;
+}
+
+/** Borders Styles **/
+
+.b {
+    border-color: #c7cdd1;
+}
+
+.b-primary {
+    border-color: #0b2f54;
+}
+
+.b-secondary {
+    border-color: #3b566e;
+}
+
+.b-success {
+    border-color: #277a71;
+}
+
+.b-danger {
+    border-color: #9d3616;
+}
+
+.b-warning {
+    border-color: #bf701e;
+}
+
+.b-trbl {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.b-rbl {
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+}
+
+.b-tbl {
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+.b-trl {
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+}
+
+.b-trb {
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+}
+
+.b-top {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+}
+
+.b-right {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+}
+
+.b-buttom {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+.b-left {
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+}
+
+.b-round {
+    border-radius: 0.4rem;
+}
+
+.b-round-t {
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.b-round-b {
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.b-round-l {
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.b-round-r {
+    border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.b-round-tl {
+    border-radius: 0.4rem 0 0 0;
+}
+
+.b-round-tr {
+    border-radius: 0 0.4rem 0 0;
+}
+
+.b-round-br {
+    border-radius: 0 0 0.4rem 0;
+}
+
+.b-round-bl {
+    border-radius: 0 0 0 0.4rem;
+}
+
+/** Boxes **/
+.content-box {
+    margin: 20px 0;
+}
+
+.content-box-mini {
+    margin: 10px 0;
+}
+
+.content-box-micro {
+    margin: 6.6666666667px 0;
+}
+
+.pad-box {
+    padding: 20px;
+}
+
+.pad-box-mega {
+    padding: 40px;
+}
+
+.pad-box-mini {
+    padding: 10px;
+}
+
+.pad-box-micro {
+    padding: 5px;
+}
+
+
+/** Text colors **/
+
+.text-primary {
+    color: #0d3762;
+}
+
+.text-secondary {
+    color: #44657e;
+}
 
 .text-success {
     color: #008579;
+}
+
+.text-danger {
+    color: #b73f1a;
+}
+
+.text-warning {
+    color: #9f5d19;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
